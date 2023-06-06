@@ -1,0 +1,7 @@
+{
+  "category": "Deportes",
+  "question": "¿Cuáles de los siguientes deportes no utilizan una pelota?",
+  "options": ["Futbol", "Ciclismo", "Rugby"],
+  "answer": 1,
+  "explanation": "El ciclismo utiliza bicicletas en vez de pelotas."
+}

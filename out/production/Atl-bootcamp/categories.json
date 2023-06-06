@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Deportes",
+    "description": "Preguntas relacionadas con futbol, rugby, ciclismo, etc."
+  },
+  {
+    "category": "Música",
+    "description": "Preguntas relacionadas con diversos generos musicales."
+  },
+  {
+    "category": "Programación",
+    "description": "Preguntas relacionadas con lenguajes de programación."
+  },
+  {
+    "category": "Cine",
+    "description": "Preguntas relacionadas con películas, directores, actores y otros aspectos del cine."
+  },
+  {
+    "category": "Arte",
+    "description": "Preguntas relacionadas artes, pinturas, esculturas, etc."
+  },
+  {
+    "category": "Ciencia",
+    "description": "Preguntas relacionadas con diferentes ramas de la ciencia, descubrimientos y avances científicos."
+  }
+]
