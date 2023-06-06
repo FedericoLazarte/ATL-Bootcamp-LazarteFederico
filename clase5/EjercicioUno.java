@@ -12,6 +12,5 @@ public class EjercicioUno {
             Integer convertirAniosHumano = edadPerro * 7;
             System.out.println("La edad de su perro en años de humano es: " + convertirAniosHumano);
         }
-
     }
 }
