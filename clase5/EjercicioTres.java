@@ -11,5 +11,6 @@ public class EjercicioTres {
         descuento = ingresoDato.nextInt();
         Double precioFinal = precioOriginal - (precioOriginal * descuento / 100);
         System.out.println("El precio final es: " + precioFinal);
+        ingresoDato.close();
     }
 }

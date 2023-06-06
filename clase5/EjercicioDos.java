@@ -8,5 +8,6 @@ public class EjercicioDos {
         millas = ingresoDatos.nextDouble();
         Double kilometros = millas * 1.60934;
         System.out.println("Las millas ingresdas son: " + millas + " y son: " + kilometros + " kilometros");
+        ingresoDatos.close();
     }
 }

@@ -12,5 +12,6 @@ public class EjercicioCuatro {
         porcentajePropina = ingresoDatos.nextInt();
         Double propina = totalCuenta * (porcentajePropina / 100);
         System.out.println("Total propina: " + propina);
+        ingresoDatos.close();
     }
 }

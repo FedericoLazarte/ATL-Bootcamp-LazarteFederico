@@ -12,5 +12,6 @@ public class EjercicioCinco {
         } else {
             System.out.println("Fallo!!, el número es: " + numeroRandom);
         }
+        ingresoDatos.close();
     }
 }
