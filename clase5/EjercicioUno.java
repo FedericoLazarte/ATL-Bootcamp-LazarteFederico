@@ -1,16 +1,21 @@
 package clase5;
 import java.util.*;
 public class EjercicioUno {
+    public static int convertirAniosPerroEnAniosHumanos (int edadPerro) {
+        return edadPerro * 7;
+    }
+    public static boolean edadValida (int edadPerro) {
+        return edadPerro > 0;
+    }
     public static void main(String[] args) {
-        Integer edadPerro;
+        int edadPerro;
         Scanner datoPerro = new Scanner(System.in);
         System.out.println("Ingrese la edad de su perro:");
         edadPerro = datoPerro.nextInt();
-        if (edadPerro < 1) {
-            System.out.println("Lo años de perro deben ser mayor o igual a 1.");
+        if (edadValida(edadPerro)) {
+            System.out.println("La edad del perro en años de humano es: " + convertirAniosPerroEnAniosHumanos(edadPerro));
         } else {
-            Integer convertirAniosHumano = edadPerro * 7;
-            System.out.println("La edad de su perro en años de humano es: " + convertirAniosHumano);
+            System.out.println("Edad de perro erronea, debe ser mayor a 0!!");
         }
         datoPerro.close();
     }
