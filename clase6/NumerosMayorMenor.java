@@ -5,7 +5,7 @@ public class NumerosMayorMenor {
         int num1;
         int num2;
         int num3;
-         Scanner ingresoDato = new Scanner(System.in);
+        Scanner ingresoDato = new Scanner(System.in);
         System.out.println("Ingrese el primer número: ");
         num1 = ingresoDato.nextInt();
         System.out.println("Ingrese el segundo número: ");

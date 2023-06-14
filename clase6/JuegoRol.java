@@ -36,24 +36,19 @@ public class JuegoRol {
         int eleccion2 = scanner.nextInt();
 
         if (eleccion2 == 1) {
+            System.out.println("Decides pelear con el goblin.");
             if (armado) {
-                System.out.println("Decides pelear con el goblin.");
                 System.out.println("Gracias a tu arma, logras derrotar al goblin.");
                 System.out.println("Tienes dos rutas disponibles:");
                 System.out.println("1. Girar a la derecha: Sales del lugar peligroso y vuelves a casa.");
                 System.out.println("2. Girar a la izquierda: Entras a un salón lleno de goblins y mueres masacrado.");
                 int eleccion3 = scanner.nextInt();
                 if (eleccion3 == 1) {
-                    if (abrigado) {
-                        System.out.println("Sales del lugar peligroso y vuelves a casa. ¡Has sobrevivido!");
-                    } else {
-                        System.out.println("No estás lo suficientemente abrigado y mueres en el camino debido al frío.");
-                    }
+                    System.out.println("No estás lo suficientemente abrigado y mueres en el camino debido al frío.");
                 } else {
                     System.out.println("Entras a un salón lleno de goblins y mueres masacrado.");
                 }
             } else {
-                System.out.println("Decides pelear con el goblin.");
                 System.out.println("No estás armado y el goblin te ataca ferozmente. Mueres en el enfrentamiento.");
             }
         } else if (eleccion2 == 2) {
