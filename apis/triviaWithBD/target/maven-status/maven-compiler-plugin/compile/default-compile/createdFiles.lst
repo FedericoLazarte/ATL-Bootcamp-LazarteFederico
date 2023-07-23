@@ -1,0 +1,7 @@
+academy\atl\trivia\entities\Question.class
+academy\atl\trivia\ChatGptClient.class
+academy\atl\trivia\repository\CategoryRepository.class
+academy\atl\trivia\ServletInitializer.class
+academy\atl\trivia\TriviaController.class
+academy\atl\trivia\TriviaApplication.class
+academy\atl\trivia\entities\Category.class
