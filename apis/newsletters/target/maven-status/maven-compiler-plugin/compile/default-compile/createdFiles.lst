@@ -1,0 +1,3 @@
+academy\atl\newsletters\models\Newsletter.class
+academy\atl\newsletters\repository\EmailRepository.class
+academy\atl\newsletters\controllers\NewslettersController.class
