@@ -1,0 +1,3 @@
+com\api\password\generarPassword\ServletInitializer.class
+com\api\password\generarPassword\GenerarPassword.class
+com\api\password\generarPassword\GenerarPasswordApplication.class
